@@ -5,7 +5,7 @@ class AddItem extends StatelessWidget {
 
   AddItem(this.updateItem);
 
-  TextEditingController controller = TextEditingController();
+  final TextEditingController controller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {

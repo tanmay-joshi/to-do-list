@@ -11,7 +11,9 @@ class TodoListManager extends StatefulWidget {
 }
 
 class _TodoListManager extends State<TodoListManager> {
-  List<String> _listItems = [];
+  var _listItems = [
+    {"Name", false}
+  ];
 
   void _updateItem(itemValue) {
     setState(() {
